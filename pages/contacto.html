@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Natacion</title>
+    <link rel="stylesheet" href="../Css/styles.css" />
+
+</head>
+
+<body class="bodycontacto">
+    <header>
+        <nav class="navbar">
+            <img src="../img/banner phelps.jpg" alt="" width="100%vw" height="400px">
+            <ul>
+                <li class="indice"><a href="../index.html">Inicio</a></li>
+                <li class="noticias"><a href="./noticias.html">Noticias</a></li>
+                <li class="tienda"><a href="./tienda.html">Tienda</a></li>
+                <li class="mundodep"><a href="./mundodeportes.html">Mundo Deportes</a></li>
+                <li class="contacto"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="pagcontacto">
+        <form>
+            <fieldset>
+                <label for="name">Nombre y Apellido:</label>
+                <input type="text" name="name" placeholder="Nombre" />
+                <br>
+                <br>
+                <label for="correo">E-mail:</label>
+                <input type="text" name="correo" placeholder="Direccion de E-mail" />
+                <br>
+                <br>
+                <label for="tel">Teléfono:</label>
+                <input type="text" name="tel" placeholder="Número de Contacto" />
+                <br>
+                <br>
+
+                <label for="motivo">Motivo de consulta:</label>
+                <select name="motivo">
+                    <option value="1">Compré y no me llegó el tracking</option>
+                    <option value="2">Quiero hacer una devolución</option>
+                    <option value="3">Quiero saber cuándo van a tener stock</option>
+                    <option value="4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </option>
+                </select>
+                <br>
+                <br>
+                <label for="text">Consulta:</label><br>
+                <input type="text" class="text">
+                <!-- No se como hacer que el texto se escriba desde la primer linea del cuadro, 
+                o darle un tamaño modificable al cuadro     -->
+                <input type="submit" value="Enviar">
+
+            </fieldset>
+        </form>
+    </div>
+
+    <footer class="piedepag">
+        <div class="MN">Mundo Natacion 2022</div>
+        <a class="up" href="#bodycontacto">Ir Arriba</a>
+        <div class="DR">Todos los derechos reservados</div>
+    </footer>
+
+</body>
+
+</html>
